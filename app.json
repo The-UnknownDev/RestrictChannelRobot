@@ -7,8 +7,8 @@
         "golang"
     ],
   "repository": "https://github.com/Reeshuxd/ChannelBot",
-  "website": "https://t.me/ItsReeshu",
-  "success_url": "https://t.me/AboutReeshu",
+  "website": "https://t.me/Arpit_Chaurasiya",
+  "success_url": "https://t.me/Arpit_Chaurasiya",
   "env": {
     "TOKEN": {
       "description": "Bot Token, Get It From @BotFather.",
