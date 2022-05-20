@@ -7,17 +7,29 @@ import (
 
 func Start(bot *gotgbot.Bot, ctx *ext.Context) error {
 	var MSG string = `
-*Hello, I am a channel spam
-detector bot*.
-I can ban the channels which
+**Hey User, I am a Highly Advanced Channel Spam Detector Bot.* 😊
+
+👉 I can ban that channels which
+
 spams your chat!
 
-*(c) @AboutReeshu*
+👉 I am simple, reliable and secure bot
+
+*🔥 Powered By - @TheByteBots*
+
+*😉Creator - @TheUnknownDev*
+
+
+
+
+
 	`
 	if ctx.EffectiveChat.Type != "private" {
 		ctx.EffectiveMessage.Reply(
 			bot,
-			"Bot is Alive (:",
+			"😇 Bot is working (•‿•) • 
+
+If you're facing any issue then contact here - @ByteBotsSupport",
 			&gotgbot.SendMessageOpts{ParseMode: "markdown"},
 		)
 	} else {
